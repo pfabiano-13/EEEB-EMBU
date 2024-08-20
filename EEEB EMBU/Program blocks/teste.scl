@@ -1,0 +1,30 @@
+﻿FUNCTION_BLOCK "teste"
+{ S7_Optimized_Access := 'TRUE' }
+VERSION : 0.1
+   VAR 
+      tag1 : Int;
+      tag2 : Int;
+      tag3 : Int;
+   END_VAR
+
+
+BEGIN
+	
+	#tag1 := 0;
+	
+	
+	WHILE #tag1 < 100 DO
+	    #tag1 := #tag1 + 1;
+	        IF #tag1 >= 99 THEN
+	            #tag1 := 0;
+	        END_IF;// Statement section WHILE
+	END_WHILE;
+	
+	
+	
+	
+	
+	
+	
+END_FUNCTION_BLOCK
+
