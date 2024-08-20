@@ -2,7 +2,7 @@
 <Document>
   <Engineering version="V17" />
   <DocumentInfo>
-    <Created>2024-08-20T11:55:51.7997414Z</Created>
+    <Created>2024-08-20T13:19:33.3395003Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -720,23 +720,7 @@
       </SW.Blocks.CompileUnit>
       <SW.Blocks.CompileUnit ID="4A" CompositionName="CompileUnits">
         <AttributeList>
-          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
-  <Parts>
-    <Call UId="21">
-      <CallInfo Name="teste" BlockType="FB">
-        <Instance Scope="GlobalVariable" UId="22">
-          <Component Name="teste_DB" />
-        </Instance>
-      </CallInfo>
-    </Call>
-  </Parts>
-  <Wires>
-    <Wire UId="23">
-      <Powerrail />
-      <NameCon UId="21" Name="en" />
-    </Wire>
-  </Wires>
-</FlgNet></NetworkSource>
+          <NetworkSource />
           <ProgrammingLanguage>LAD</ProgrammingLanguage>
         </AttributeList>
         <ObjectList>
@@ -774,55 +758,15 @@
           </MultilingualText>
         </ObjectList>
       </SW.Blocks.CompileUnit>
-      <SW.Blocks.CompileUnit ID="51" CompositionName="CompileUnits">
-        <AttributeList>
-          <NetworkSource />
-          <ProgrammingLanguage>LAD</ProgrammingLanguage>
-        </AttributeList>
+      <MultilingualText ID="51" CompositionName="Title">
         <ObjectList>
-          <MultilingualText ID="52" CompositionName="Comment">
-            <ObjectList>
-              <MultilingualTextItem ID="53" CompositionName="Items">
-                <AttributeList>
-                  <Culture>en-US</Culture>
-                  <Text />
-                </AttributeList>
-              </MultilingualTextItem>
-              <MultilingualTextItem ID="54" CompositionName="Items">
-                <AttributeList>
-                  <Culture>pt-BR</Culture>
-                  <Text />
-                </AttributeList>
-              </MultilingualTextItem>
-            </ObjectList>
-          </MultilingualText>
-          <MultilingualText ID="55" CompositionName="Title">
-            <ObjectList>
-              <MultilingualTextItem ID="56" CompositionName="Items">
-                <AttributeList>
-                  <Culture>en-US</Culture>
-                  <Text />
-                </AttributeList>
-              </MultilingualTextItem>
-              <MultilingualTextItem ID="57" CompositionName="Items">
-                <AttributeList>
-                  <Culture>pt-BR</Culture>
-                  <Text />
-                </AttributeList>
-              </MultilingualTextItem>
-            </ObjectList>
-          </MultilingualText>
-        </ObjectList>
-      </SW.Blocks.CompileUnit>
-      <MultilingualText ID="58" CompositionName="Title">
-        <ObjectList>
-          <MultilingualTextItem ID="59" CompositionName="Items">
+          <MultilingualTextItem ID="52" CompositionName="Items">
             <AttributeList>
               <Culture>en-US</Culture>
               <Text>"Main Program Sweep (Cycle)"</Text>
             </AttributeList>
           </MultilingualTextItem>
-          <MultilingualTextItem ID="5A" CompositionName="Items">
+          <MultilingualTextItem ID="53" CompositionName="Items">
             <AttributeList>
               <Culture>pt-BR</Culture>
               <Text>"Main Program Sweep (Cycle)"</Text>
